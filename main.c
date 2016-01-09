@@ -1,6 +1,7 @@
 //intellectual property of Quinn Johns as of 2016
 //still a work in progress
 //should compile but will end at certain points
+//for game over add "Well you royally fucked that one up. Good job."
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -30,7 +31,7 @@ int main()
 		printf("B. No\n");
 		scanf(" %c", &backout);
 		if (backout == 'A'){
-			printf("Good decision.\n");
+			printf("Good decision, coward.\n");
 		}else if(backout == 'B'){
 			printf("You may continue.\n");
 			printf("\n");
@@ -43,7 +44,7 @@ int main()
 		printf("B. No\n");
 		scanf(" %c", &backout);
 		if (backout == 'A'){
-			printf("Good decision.\n");
+			printf("Good decision, coward.\n");
 		}else if(backout == 'B'){
 			printf("You may continue.\n");
 			printf("\n");
@@ -56,7 +57,7 @@ int main()
 		printf("B. No\n");
 		scanf(" %c", &backout);
 		if (backout == 'A'){
-			printf("Good decision.\n");
+			printf("Good decision, coward.\n");
 		}else if(backout == 'B'){
 			printf("You may continue.\n");
 			printf("\n");
